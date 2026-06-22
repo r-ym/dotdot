@@ -1,0 +1,11 @@
+[font]
+normal = { family = "Google Sans Code", style = "Regular" }
+[window]
+option_as_alt = "Both"
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+  { key = "Up",    mods = "Control", action = "ReceiveChar" },
+  { key = "Down",  mods = "Control", action = "ReceiveChar" },
+]
